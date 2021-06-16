@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 140px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.bodyContainer{
+  margin: 70px;
+  border-width: 10cm;
+  border-color:  rgb(17, 50, 80);
+  
+}
+
+.rbc-toolbar-label{
+  color: rgb(17, 50, 80);
+  
+  
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+h1, .instruction{
+  font-family: fantasy;
+}
+
+.modal{ display:block; }
+
+.rbc-toolbar span:first-child button:first-child {
+ background-color:#28a745;
+ color: white;
+ font-weight: bold;
+ display: none;
+}
+
+.rbc-toolbar span:first-child button:nth-child(2)  {
+  text-indent: -9999px;
+  line-height: 0; 
+  margin-left: 5px;
+}
+
+.rbc-toolbar span:first-child button:nth-child(2)::after  {
+  content: '◀';
+  color: rgb(17, 50, 80);
+
+  text-indent: 0;
+  display: block;
+  line-height: initial; 
+  font-size: 13px;
+  
+}
+
+.rbc-toolbar span:first-child button:nth-child(3)  {
+  text-indent: -9999px;
+  line-height: 0; 
+}
+
+.rbc-toolbar span:first-child button:nth-child(3)::after  {
+  content: '▶';
+  text-indent: 0;
+  color: rgb(17, 50, 80);
+  display: block;
+  line-height: initial; 
+  font-size: 13px;
+}
+
+.rbc-active{
+  background-color: rgb(17, 50, 80) !important;
+  color: white !important;
+  
+}
+#contained-modal-title
+{
+  color: rgb(17, 50, 80) !important;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:bolder;
+
+}
+
+.rbc-header{
+  background-color: rgb(17, 50, 80) !important;
+  color: white !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  border-radius: 5px;
+}
+
+.rbc-toolbar{
+  flex-wrap: wrap-reverse;
+}
+
+.rbc-day-bg + .rbc-day-bg, .rbc-month-row + .rbc-month-row {
+  border: none !important;
+  color: rgb(17, 50, 80);
+}
+
+.rbc-off-range-bg{
+  border-radius: 10px;
+  margin-left: 1px;
+}
+
+.rbc-month-view{
+  border-radius: 10px;
+}
+
+.rbc-btn-group{
+  white-space: pre-wrap !important;
+  margin-bottom: 10px;
+}
